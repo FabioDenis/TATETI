@@ -1,0 +1,66 @@
+:root {
+  --font-family: Verdana, Geneva, Tahoma, sans-serif;
+  --color :rgb(64, 2, 52)
+}
+
+body {
+  user-select: none;
+  background-color: aliceblue;
+}
+
+#contenedor-TATETI {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  justify-content: center;
+}
+.titulo-tateti {
+  text-align: center;
+  font-size: 4rem;
+  font-family: var(--font-family);
+  color: var(--color);
+}
+.cuadrado {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: var(--font-family);
+  color: var(--color);
+}
+.medio {
+  border-left: solid 10px var(--color);
+  border-right: solid 10px var(--color)
+}
+.arriba {
+  border-bottom: solid 10px var(--color)
+}
+.abajo {
+  border-top: solid 10px var(--color)
+ 
+}
+
+.ganador {
+  background-color: rgba(5, 130, 5, 0.534);
+}
+
+dialog {
+  text-align: center;
+  min-width: 20vw;
+  min-height: 5vw;
+  background-color: rgb(240, 248, 255, 0.93);
+  padding: 5rem;
+  border: unset;
+  color: var(--color);
+}
+dialog h2 {
+  font-family: var(--font-family);
+}
+dialog button {
+  padding: 1rem;
+  font-size: large;
+  font-family: var(--font-family);
+  color:var(--color)
+}
